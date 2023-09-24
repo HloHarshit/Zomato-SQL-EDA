@@ -86,7 +86,7 @@ group by a.userid, a.product_id) c) d) e
 group by e.userid
 order by e.userid;
 
--- The following query is find the for which product most points have been given till now
+-- The following query is to find out the product that has received the highest number of points up to this point?"
 select e.product_id, sum(e.Total_points) as Final_points from
 (select d.*, round(d.Price/d.points) as Total_points from
 (select c.*, case when c.product_id = 1 then 5

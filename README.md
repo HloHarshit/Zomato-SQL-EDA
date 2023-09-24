@@ -2,7 +2,7 @@
 
 This repository contains the code and documentation for an Exploratory Data Analysis (EDA) of Zomato data using SQL queries in Python via the *mysql-connector* module. The data is stored in a MySQL database named **zomato**, consisting of several tables.
 
-## Dataset
+## Dataset: [Link](zomato_dataset.sql)
 
 The dataset comprises multiple tables in the **zomato** database. Here are the details of the tables used for this analysis:
 
